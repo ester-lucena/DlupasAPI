@@ -13,9 +13,12 @@ import java.util.List;
 
 public class Pedido {
 
-    private int id;
+    private String id; // UUID
     private LocalDateTime data;
     private List<ItemPedido> itens;
+    private double totalDescontos;
     private double valorTotal;
+    private String status; // pendente, confirmado, cancelado
+    private String cliente;
 
 }

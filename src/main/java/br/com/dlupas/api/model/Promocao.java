@@ -8,11 +8,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor     // Gera construtor com todos os campos
 @NoArgsConstructor      // Gera construtor vazio
 
-public class ItemPedido {
-
-    private String variacaoProdutoId; //fk
-    private int quantidade;
-    private double totalDescontos;
-    private double subtotal;
-    
+public class Promocao {
+	
+	private String id; // nome da promoção
+	private String descricao;
+	private String tipo; // porcentagem ou combo
+	private double valor; // zero caso o tipo seja combo
+	private boolean ativo;
+	
 }
