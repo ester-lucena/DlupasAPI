@@ -12,7 +12,7 @@ public class ItemPedido {
 
     private String variacaoProdutoId; //fk
     private int quantidade;
-    private double totalDescontos;
-    private double subtotal;
+    private double totalDescontos; // 2 casas decimais
+    private double subtotal; // 2 casas decimais
     
 }

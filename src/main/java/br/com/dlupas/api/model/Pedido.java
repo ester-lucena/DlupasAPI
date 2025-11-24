@@ -15,9 +15,9 @@ public class Pedido {
 
     private String id; // UUID
     private LocalDateTime data;
-    private List<ItemPedido> itens;
-    private double totalDescontos;
-    private double valorTotal;
+    private List<ItemPedido> itens; //fk list
+    private double totalDescontos; // 2 casas decimais
+    private double valorTotal; // 2 casas decimais
     private String status; // pendente, confirmado, cancelado
     private String cliente;
 

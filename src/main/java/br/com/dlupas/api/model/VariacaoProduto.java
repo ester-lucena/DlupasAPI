@@ -15,6 +15,6 @@ public class VariacaoProduto {
 	private String cor;
 	private String tamanho; // PP, P, M, G, GG
 	private int quantidadeEstoque;
-	private double precoBase;
+	private double precoBase; // 2 casas decimais
 	
 }

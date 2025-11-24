@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class Produto {
 
-    private String id;         //UUID;
+    private String id;         //UUID
     private String nome;
     private String categoria;
     private String genero;    // masculino, feminino, unissex
