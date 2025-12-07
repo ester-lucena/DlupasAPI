@@ -16,8 +16,12 @@ public class Produto {
     private String nome;
     private String categoria;
     private String genero;    // masculino, feminino, unissex
+    
+    private ArrayList<VariacaoProduto> variacoes = new ArrayList<>();
     private ArrayList<String> promocaoID;
-    private int estoqueTotal;
-    private double preco;     // 2 casas decimais
+    
+    public int getEstoqueTotal() {
+        return variacoes.stream().mapToInt(VariacaoProduto::getQuantidadeEstoque).sum();
+    }
    
 }
