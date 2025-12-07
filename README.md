@@ -1,4 +1,4 @@
-```markdown
+
 # 📦 DlupasAPI – Sistema de Gerenciamento de Produtos, Variações e Promoções
 Projeto desenvolvido para a disciplina **Linguagem de Programação II** do curso de **Bacharelado em Tecnologia da Informação** da **Universidade Federal do Rio Grande do Norte (UFRN)**, ofertada pelo **Instituto Metrópole Digital (IMD)**.
 
